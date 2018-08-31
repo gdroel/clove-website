@@ -1,0 +1,250 @@
+/**************/
+/* Stylesheet */
+/**************/
+/* Logo Color: #5BBA4C */
+
+.about-content{
+    border-radius: 10px;
+}
+
+html, body{
+    height:100%;
+    width:100%;
+}
+
+body{
+    background-image: url("gradient.jpg");
+    background: white;
+}
+
+.bg-green{
+    background: #5BBA4C;
+}
+
+.bottom-container{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background-size: cover;
+    background-image: url("herbs.png");
+}
+
+.btn.btn-primary{
+    background-color:orange;
+    height:44px;
+    border-radius:22px;
+    font-family:'Open Sans', sans-serif;
+    width:170px;
+   -moz-box-shadow:    1px 2px 2px 1px #000;
+   -webkit-box-shadow: 1px 2px 2px 1px #000;
+   box-shadow:         1px 2px 2px 1px #000;
+   border:none;
+}
+
+.center{
+    text-align: center;
+}
+
+.footer{
+    background-color: #5BBA4C;
+    height: 50px;
+    margin-top: 40px;
+}
+
+.footer p{
+    color: white;
+    display: inline-block;
+    margin-left: 30px;
+    font-family: 'Open Sans';
+    margin-top: 10px;
+}
+
+.garden-image{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    overflow:hidden;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: #5BBA4C;
+    color: white;
+}
+
+h2{
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight: 700;
+    text-align: center;
+    color: #5BBA4C;
+}
+
+h3{
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight: 400;
+    text-align: center;
+    color: black;
+}
+
+.home-bg{
+    background-image: url("home1.jpg");
+    background-size:cover;
+}
+
+.home-nav{
+
+}
+
+.herbs{
+        /*background-image: url("herbs.png");
+        background-size: cover;
+        background-position: center center;*/
+    width: 30%;
+    top: 0;
+    right: 0;
+    height:100%;
+    overflow: none;
+    position:absolute;
+}
+
+.top-box{
+    background-image: url("kitchen.jpg");
+    background-size: cover;
+    height: 300px;
+    margin-top: -20px;
+    background-position: center center;
+    color: white;
+}
+
+.faq{
+    background-image: url("home2.jpg");
+}
+
+.contact{
+    background-image: url("contact.jpg");
+}
+
+.top-box-text{
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 70px;
+}
+
+.left-align{
+    text-align: left;
+}
+
+.img-circle{
+    border: 3px solid #5BBA4C;
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+p{
+    font-family: 'Lora';
+    font-size: 16px;
+} 
+
+.jumbotron h1{
+    font-size: 80px;
+    color: white;
+}
+
+.jumbotron p{
+    font-size: 25px;
+    color:white;
+}
+.jumbotron{
+    background-color: transparent !important;
+    height: 100%;
+    color:#5BBA4C;
+    color:white;
+    text-align: center;
+}
+
+.main-content{
+    top: 10%; 
+    height: 100%;
+}
+
+.navbar{
+    border: none;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+.navbar-brand{
+    margin-top:10px;
+}
+
+.navbar-default{
+    background: white;
+}
+
+.navbar-header{
+    margin-left: 50px;
+}
+
+.navbar-nav > li{
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:10px;
+    margin-bottom:12px;
+}
+
+.navbar-nav > li > a{
+   color:#5BBA4C !important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.navbar-toggle{
+    background-color: white;
+}
+
+.content{
+    margin-top: -30px;
+    border-radius: 10px;
+    background: white;
+   -moz-box-shadow:    3px 4px 4px 3px #666;
+   -webkit-box-shadow:  3px 4px 4px 3px #666;
+   box-shadow:  3px 4px 4px 3px #666;
+}
+
+
+.pattern{
+    background-image: url("leaves-pattern.png");
+}
+
+.rendering{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+#sun{
+    position:absolute;
+    right:0;
+    top:-20;
+    width: 18%;
+    height: 18%;
+    z-index: 100;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
